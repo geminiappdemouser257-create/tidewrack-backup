@@ -20,7 +20,7 @@ func set_flag(name: String, value: Variant) -> void:
 	state_changed.emit()
 
 
-func get_flag(name: String, default: Variant = false) -> Variant =
+func get_flag(name: String, default: Variant = false) -> Variant:
 	return flags.get(name, default)
 
 
